@@ -1,0 +1,30 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.canvas {
+ width: 300px;
+ height: 300px;
+ margin: 0px;
+ background-color: aliceblue;
+ border-collapse: collapse; 
+ border-style: solid;
+ border-width: 1px;
+ border-color: #888888;
+}
+
+
+.dot {
+  position:absolute;
+  background-color:#000000;
+  width:3px;
+  height:3px;
+  z-index:10;
+  border-color: #888888;
+  overflow: hidden;
+}
